@@ -1,0 +1,24 @@
+.table {
+  background-color: #f3f3f3;
+  margin-top: 24px;
+  width: 600px;
+  /* border: 3px solid #000000; */
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.table > thead {
+  color: #f3f3f3;
+  background-color: #383838;
+  border: 1px solid #0c0c0c;
+}
+
+.table > tbody > tr:nth-child(even) {
+  background-color: #b9b9b9;
+}
+
+th,
+td {
+  border: 2px solid #0c0c0c;
+}
